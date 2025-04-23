@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela perfil</title>
+  <link rel="stylesheet" href="Telaperfil.css">
+
+</head>
+
+<body>
+  <div class="header-primeiro">
+    <div class="topbar">
+      <input type="text" class="search"  placeholder="Pesquisar">
+      <div class="icons">
+        <span class="icon"><img src="icons/assets/interr.svg"></span>
+        <span class="icon"><img src="icons/assets/sino.svg" ></span>
+        <div class="top-profile-pic" id="topProfile"></div>
+      </div>
+    </div>
+  </div>
+  <div class="header-segundo"></div>
+
+  <div class="container">
+    <div class="caixa-menu">
+      <div class="menu-conteudo">
+        <div class="conteudo-principal">
+          <p class="principal-titulo">Principal</p>
+          <p class="principal-estoque"><img src="icons/assets/archivebox.svg" alt="estoque-icon"
+              class="icon-dashboard">Estoque</p>
+          <p class="principal-dashboard"><img src="icons/assets/tv.svg" alt="tv-icon" class="icon-dashboard">Dashboard
+          </p>
+        </div>
+
+        <div class="conteudo-contatos">
+          <p class="contatos-titulo">Gestão de Contatos</p>
+          <p class="contatos-clientes"><img src="icons/assets/pessoa.svg" alt="pessoa-icon"
+              class="icon-dashboard">Clientes</p>
+          <p class="conteudo-cadastro"><img src="icons/assets/pessoacracha.svg" alt="pessoacracha-icon"
+              class="icon-dashboard">Cadastro de Fornecedores</p>
+        </div>
+
+        <div class="conteudo-relatorios">
+          <p class="relatorios-titulo">Relatórios</p>
+          <p class="relatorios-vendas"><img src="icons/assets/grafico.svg" alt="grafico"
+              class="icon-dashboard">Relatórios de Vendas</p>
+          <p class="relatorios-mensal"><img src="icons/assets/pizza.svg" alt="pizza-icon"
+              class="icon-dashboard">Relatório Mensal</p>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <div class="caixa-conteudo-dashboard">
+      <p class="conteudo-dashboard-titulo">Perfil</p>
+
+      <div class="profile-box">
+        <div class="profile-photo">
+          <div class="circle-photo"></div>
+          <button class="btn">Trocar foto</button>
+        </div>
+      </div>
+
+      <div class="profile-inputs">
+        <div class="profile-info">
+          <div class="formulario-nome">
+            <label for="nome">Nome </label>
+            <input class="input-checkbox" type="text" id="nome" name="nome" required>
+          </div>
+
+          <div class="formulario-numero">
+            <label for="numero">Número</label>
+            <input class="input-checkbox" type="text" id="numero" name="numero" required>
+          </div>
+        </div>
+        <div class="profile-info1">
+          <div class="formulario-Email">
+            <label for="email">E-mail</label>
+            <input class="input-checkbox" type="email" id="email" name="email" required>
+          </div>
+
+          <div class="formularios-senha">
+            <label for="password">Senha</label>
+            <input class="input-checkbox" type="password" id="password" name="password" required>
+          </div>
+        </div>
+      </div>
+</body>
+
+</html>

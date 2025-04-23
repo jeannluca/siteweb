@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+}
+
+.header-primeiro {
+    width: 100vw;
+    height: 70px;
+    background-color: #6c757d;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .topbar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .search {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid rgb(27, 23, 23);
+    background-color: transparent;
+    color: rgb(10, 9, 9);
+  }
+
+  .search::placeholder {
+    color: rgb(21, 21, 21);
+    
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .icon {
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(201, 32, 32);
+  }
+
+  .top-profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url('icons/assets/selfie.png'); /* Substitua se necessário */
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #141414;
+    cursor: pointer;
+  }
+
+.header-segundo {
+    width: 100vw;
+    height: 30px;
+    background-color: #495057e2;
+}
+
+.container {
+    display: flex;
+}
+
+.caixa-menu {
+    width: 250px;
+
+    background-color: #ffffff;
+}
+
+.principal-titulo,
+.contatos-titulo,
+.relatorios-titulo {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f15025;
+}
+
+.principal-estoque,
+.principal-dashboard,
+.contatos-clientes,
+.conteudo-cadastro,
+.relatorios-vendas,
+.relatorios-mensal {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #2c64d4;
+}
+
+.caixa-conteudo-dashboard {
+    margin-top: 20px;
+    margin-left: 100px;
+    flex-grow: 1;
+    background-color: #ffffff;
+    width: 100px;
+    height: 600px;
+    
+}
+
+.conteudo-dashboard-titulo {
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f15025;
+}
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5a636c;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .search {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+  }
+  
+  .search::placeholder {
+    color: white;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .top-profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url('icons/assets/selfie.png');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #2196F3;
+    cursor: pointer;
+  }
+
+.profile-inputs{
+    display: flex;
+    flex-direction: rows;
+}
+.profile-info {
+
+    margin-left: 30px;
+    flex-direction: column;
+   
+        
+}
+
+.profile-info1 {
+   margin-left: 100px;
+    flex-direction: column;
+   
+}
+
+.profile-box {
+    
+    display: flex;
+    
+   
+    
+}
+
+.profile-photo {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 30px;
+    align-items: center;
+
+}
+
+.circle-photo {
+    background-image: url('icons/assets/selfie.png');
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #3f51b5;
+    color: white;
+    width: 100px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+    
+}
+
+.formulario-nome,
+.formulario-numero,
+.formulario-Email,
+.formularios-senha {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px;
+    color: #2c64d4;
+
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+    right: 50
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #c4c4c4;
+    flex-direction: column;
+    font-size: 16px;
+    width: 400px;
+}
+.input-checkbox {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
