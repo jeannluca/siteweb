@@ -91,13 +91,10 @@ body {
     text-align: center;
 }
 
-.dashboard-funcoes-container {
-    position: relative; 
-    bottom: 75px;
-    right: 10px;
-    width: auto;
+.dashboard-funcoes-container{
     display: flex;
-    justify-content: flex-end;
+    width: 100%;
+    margin-left: 460px;
 }
 
 .dashboard-funcoes {
@@ -163,7 +160,6 @@ body {
 }
 
 .dashboard-indicadores {
-    margin-top: -60px;
     display: flex;
     position: relative;
 }
@@ -240,4 +236,10 @@ body {
 .container-aviso-conteudo {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 5px;
+}
+
+
+.container-header-titulo{
+    display: flex;
+    flex-direction: row;
 }
